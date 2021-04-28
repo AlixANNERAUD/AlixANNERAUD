@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @AlixANNERAUD
-- 👀 I’m interested in informatic and electronic.
+- 👀 I’m interested in computing and electronic.
 - 🌱 I’m currently learning C++.
-- 💞️ I’m looking to collaborate on all kind of project.
+- 💞️ I’m looking to collaborate on all kinds of project.
 - 📫 How to reach me : alix.anneraud@outlook.fr
 
 <!---
