@@ -1,17 +1,36 @@
-baseURL = "https://gokarna-hugo.netlify.app"
-title = "Gokarna"
+baseURL = "https://alix.anneraud.fr"
 theme = "gokarna"
-languageCode = "en"
+title = "Alix ANNERAUD"
 defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 enableEmoji = true
 enableRobotsTXT = true
+
+[languages]
+    [languages.fr]
+        languageCode = "fr-FR"
+        disabled = false
+        langageDirection = "ltr"
+        contentDir = "content/French"
+        langageName = "Français"
+        weight = 2
+        [langage.fr.params]
+            description = "Etudiant salarié à l'INSA de Rouen Normandie en spécialité Informatique et Technologies de l'Information."
+    [languages.en]
+        languageCode = "en-US"
+        disabled = false
+        langageDirection = "ltr"
+        contentDir = "content/English"
+        langageName = "English"
+        weight = 1
+        [langage.en.params]
+            description = "Student at INSA Rouen Normandie in Computer Science and Information Technology."
 
 # Choose one of emacs, trac or perldoc
 pygmentsStyle = "monokai"
 
 [params]
-  footer = "The Marauders"
-  description = "Sky above, sand below and peace within"
+  footer = "Alix ANNERAUD"
   avatarURL = "/images/avatar.webp"
   AvatarAltText = "avatar"
   avatarSize = "size-m"
@@ -69,22 +88,15 @@ pygmentsStyle = "monokai"
     weight = 4
 
   [[menu.main]]
-    identifier = "github"
-    pre = "<span data-feather='github'></span>"
-    url = "https://github.com/526avijitgupta/gokarna"
-    weight = 5
+    identifier = "french"
+    pre = "🇫🇷"
+    url = "/fr/"
+    weight = 8
 
-  [[menu.main]]
-    identifier = "buymeacoffee"
-    pre = "<span data-feather='coffee'></span>"
-    url = "https://www.buymeacoffee.com/avijitgupta"
-    weight = 6
-
-  [[menu.main]]
-    identifier = "rss"
-    pre = "<span data-feather='rss'></span>"
-    url = "/index.xml"
-    weight = 7
+    [[menu.main]]
+    identifier = "english"
+    pre = "🇬🇧"
+    url = "/en/"
 
 [markup]
   [markup.tableOfContents]
