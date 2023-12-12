@@ -1,3 +1,4 @@
-[submodule "Site/themes/gokarna"]
-	path = Site/themes/gokarna
-	url = https://github.com/526avijitgupta/gokarna.git
+[submodule "Site/themes/congo"]
+	path = Site/themes/congo
+	url = https://github.com/jpanther/congo.git
+	branch = stable
