@@ -14,7 +14,7 @@ copyright = "Copyright Alix ANNERAUD. Use Hugo with Congo"
 
 [author]
    name = "Alix ANNERAUD"
-   image = "Images/Author.jpg"
+   image = "Images/Alix.png"
    headline = "20 years old student in computer science"
    bio = "Hey, I'm Alix, a french student in computer science. I'm passionate about embedded systems and development."
    links = [
