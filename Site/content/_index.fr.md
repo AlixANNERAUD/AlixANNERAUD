@@ -1,4 +1,5 @@
 ---
+title: "Accueil"
 ---
 
 Salut 👋, je suis Alix, étudiant à [l'INSA de Rouen](https://www.insa-rouen.fr). Actuellement en 3e année d'**école d'ingénierie**, je me spécialise en **informatique**.

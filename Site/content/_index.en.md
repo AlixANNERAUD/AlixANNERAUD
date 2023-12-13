@@ -1,4 +1,5 @@
 ---
+title: "Home"
 ---
 
 Hey 👋, I'm **Alix**, a student at the [INSA of Rouen](https://www.insa-rouen.fr), France. Currently in my 3rd year of **engineering school**, I'm specializing in **computer science**.
