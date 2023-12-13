@@ -11,19 +11,19 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Projets"
-  pageRef = "projects"
-  weight = 10
+  name = "Compétences"
+  pageRef = "skills"
+  weight = 30
 
 [[main]]
   name = "Expériences"
   pageRef = "experiences"
-  weight = 20
+  weight = 10
 
 [[main]]
-  name = "Compétences"
-  pageRef = "skills"
-  weight = 30
+  name = "Projets"
+  pageRef = "projects"
+  weight = 20
 
 [[main]]
   identifier = "search"
