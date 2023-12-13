@@ -12,17 +12,17 @@
 
 [[main]]
   name = "Projets"
-  pageRef = "posts"
+  pageRef = "projects"
   weight = 10
 
 [[main]]
-  name = "Categories"
-  pageRef = "categories"
+  name = "Expériences"
+  pageRef = "experiences"
   weight = 20
 
 [[main]]
-  name = "Tags"
-  pageRef = "tags"
+  name = "Compétences"
+  pageRef = "skills"
   weight = 30
 
 [[main]]
