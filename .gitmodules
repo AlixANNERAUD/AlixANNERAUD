@@ -2,3 +2,6 @@
 	path = Site/themes/congo
 	url = https://github.com/jpanther/congo.git
 	branch = stable
+[submodule "Curriculum vitae/AltaCV"]
+	path = Curriculum vitae/AltaCV
+	url = https://github.com/liantze/AltaCV.git
