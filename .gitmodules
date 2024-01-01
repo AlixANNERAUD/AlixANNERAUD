@@ -1,7 +1,0 @@
-[submodule "Site/themes/congo"]
-	path = Site/themes/congo
-	url = https://github.com/jpanther/congo.git
-	branch = stable
-[submodule "Resume/AltaCV"]
-	path = Resume/AltaCV
-	url = https://github.com/liantze/AltaCV.git
