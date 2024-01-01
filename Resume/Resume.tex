@@ -14,11 +14,11 @@
   \renewcommand{\familydefault}{\sfdefault}
 \fi
 
-\definecolor{SlateGrey}{HTML}{2E2E2E}
-\definecolor{LightGrey}{HTML}{666666}
-\definecolor{DarkPastelRed}{HTML}{450808}
-\definecolor{PastelRed}{HTML}{8F0D0D}
-\definecolor{GoldenEarth}{HTML}{E7D192}
+\definecolor{SlateGrey}{HTML}{000000}
+\definecolor{LightGrey}{HTML}{000000} 
+\definecolor{DarkPastelRed}{HTML}{4c1d95}
+\definecolor{PastelRed}{HTML}{4c1d95}
+\definecolor{GoldenEarth}{HTML}{4c1d95}
 \colorlet{name}{black}
 \colorlet{tagline}{PastelRed}
 \colorlet{heading}{DarkPastelRed}
@@ -38,15 +38,17 @@
 
 \begin{document}
 \name{Alix ANNERAUD}
-\tagline{Student in Computer Science at INSA Rouen}
+\tagline{Student in Computer Science at INSA Rouen Normandie}
+
+\photoL{2.8cm}{Photo transparente.png}
 
 \personalinfo{
+  \homepage{https://alix.anneraud.fr}
   \email{alix@anneraud.fr}
   \phone{+33 7 81 85 08 69}
-  \location{Rouen}
-  \homepage{alix.anneraud.fr}
-  \linkedin{Alix-ANNERAUD}
   \github{AlixANNERAUD}
+  %\location{Rouen, France}\\
+  %\linkedin{Alix-ANNERAUD}
 }
 
 \makecvheader
@@ -54,29 +56,40 @@
 \columnratio{0.6}
 
 \begin{paracol}{2}
-  \cvsection{Experience}
+  \cvsection{\faBriefcase Experience}
 
-  \cvevent{Assistant to the School-Business Relations Department}{INSA de Rouen Normandie}{September 2021 -- Ongoing}{}
+  \cvevent{Assistant to the School-Business Relations Department}{INSA Rouen Normandie}{September 2021 -- Ongoing}{}
 
-  \divider
-
-
-  \cvevent{Intern on production line}{July 2022}{Month 20XX -- Ongoing}{}
-
-
-  \cvsection{Education}
-
-  \cvevent{Engineering degree}{INSA de Rouen Normandie}{Sept 2021 -- Ongoing}{Rouen, Normandie, France}
+  Versatile assistance position:
+  \begin{itemize}
+    \item Collection and valorization of data concerning INSA partner companies.
+    \item Canvassing partner companies for the collection of the apprenticeship tax.
+    \item Administrative management of student files.
+    \item Alumni survey for course certification.
+  \end{itemize}
 
   \divider
 
-  \cvevent{Scientific baccalaureate (European section) }{Institution Jean-Paul II}{2021}{Rouen, Normandie, France}
+  \cvevent{Intern on production line}{Renault - Cléon factory}{June 2022 (1 month)}{}
+
+  Rotor/stator assembly for electric motor.
+
+  \smallskip
+
+  \cvsection{\faGraduationCap Education}
+
+  \cvevent{Engineering degree in Compute Science}{INSA Rouen Normandie}{Sept 2021 -- Ongoing}{Rouen, Normandie, France}
+
+  \divider
+
+  \cvevent{Scientific baccalaureate (european section) }{Jean-Paul II school}{2021}{Rouen, Normandie, France}
   Obtained with very good honors.
 
   \divider
 
-  \cvevent{B.Sc.\ in Your Discipline}{Stanford University}{Sept 1998 -- June 2001}{}
+  \cvevent{Cambridge B1 Preliminary}{}{2018}{}
 
+  \smallskip
 
   \cvsection{Projects}
 
@@ -92,47 +105,42 @@
 
   \medskip
 
-  \cvsection{A Day of My Life}
-
-  \wheelchart{1.5cm}{0.5cm}{%
-  6/8em/accent!30/{Sleep,\\beautiful sleep},
-  3/8em/accent!40/Hopeful novelist by night,
-  8/8em/accent!60/Daytime job,
-  2/10em/accent/Sports and relaxation,
-  5/6em/accent!20/Spending time with family
-  }
-
-  \newpage
-
   \switchcolumn
 
-  \cvsection{About}
+  \cvsection{\faUser About}
 
   \begin{quote}
-    ``Hey, I’m Alix, a student at the INSA of Rouen, France. Currently in my 3rd year of engineering school, I’m specializing in computer science.
-    I’m passionate about embedded systems, artificial intelligence and low level programming.
-    I’ve also a part time job.''
+    ``I have been studying at INSA Rouen since
+    2021. Passionate since always
+    to everything related to computers, I
+    would like to become an engineer in this
+    field.
+    
+    I am currently looking for an internship abroad (between 1 and 2 months) in I.T. from June 2024.
+    
+    I have a driving license.''
   \end{quote}
 
-  \cvsection{Most Proud of}
+  \cvsection{\faThumbsUp Hobbies}
 
-  \cvachievement{\faTrophy}{Fantastic Achievement}{and some details about it}
-
-  \divider
-
-  \cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
+  \cvachievement{\faMicrochip}{I.T. \& electronic}{I spend the majority of my free time doing IT and electronics projects.}
 
   \divider
 
-  \cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
+  \cvachievement{\faSubway}{Scale modeling}{I have been building a model railway with my father.}
+  
+  \divider
+  
+  \cvachievement{\faMusic}{Music}{I listen to a lot of music and play piano.}
 
-  \cvsection{Strengths}
+  \cvsection{\faTools Strengths}
 
   \cvtag{Hard-working}
-  \cvtag{Eye for detail}\\
-  \cvtag{Motivator \& Leader}
+  \cvtag{Self-taugth}
+  \cvtag{Persistent}
+  \cvtag{Thorough}\\
 
-  \divider\smallskip
+  \divider
 
   \cvtag{C}
   \cvtag{C++}
@@ -143,32 +151,22 @@
   \cvtag{Linux}
   \cvtag{Embedded Systems}
 
-  \cvsection{Languages}
+  \cvsection{\faGlobe Languages}
 
-  \cvskill{English}{5}
+  \textcolor{emphasis}{\textbf{French}} \hfill \textbf{Native}\\
+
   \divider
 
-  \cvskill{Spanish}{4}
-  \divider
-
-  \cvskill{German}{3.5} %% Supports X.5 values.
-
-  \medskip
+  \textcolor{emphasis}{\textbf{English}} \hfill \textbf{Fluent (C1)}\\
   
-  \cvsection{Referees}
+  \divider
 
-  % \cvref{name}{email}{mailing address}
-  \cvref{Prof.\ Alpha Beta}{Institute}{a.beta@university.edu}
-  {Address Line 1\\Address line 2}
+  \textcolor{emphasis}{\textbf{Spanish}} \hfill \textbf{Basic (A1)}\\
 
   \divider
 
-  \cvref{Prof.\ Gamma Delta}{Institute}{g.delta@university.edu}
-  {Address Line 1\\Address line 2}
-
+  \textcolor{emphasis}{\textbf{German}} \hfill \textbf{Basic (A1)}\\
 
 \end{paracol}
-
-\textit{This curriculum vitae is written in \LaTeX{} using the AltaCV template.}
 
 \end{document}
