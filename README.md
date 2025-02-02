@@ -7,7 +7,7 @@
 - 💻 I am an amateur embedded developer.
 - 🎓 I'm currently studying Computer Science at [INSA Rouen Normandie](https://www.insa-rouen.fr/).
 - 🌱 I’m currently learning Rust.
-- 📝 Here is [my resume](https://alix.anneraud.fr/Resume.pdf).
+- 📝 Here is my resume : [english](https://resume.alix.anneraud.fr/Resume.english.pdf) / [français](https://resume.alix.anneraud.fr/Resume.français.pdf).
 - 📫 How to reach me : [alix@anneraud.fr](mailto:alix@anneraud.fr).
 - 🌍 For more information, please visit my [website](https://alix.anneraud.fr/) and [Xila-Project](https://github.com/Xila-Project).
 
