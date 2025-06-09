@@ -18,6 +18,6 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AlixANNERAUD&hide=css&layout=compact&langs_count=10&size_weight=0.5&count_weight=0.5)](https://github.com/anuraghazra/github-readme-stats)
 
-[![Wakatime](https://wakatime.com/share/@alix_anneraud/5feb2198-4768-4d7e-99cc-bb77e83b124f.svg)](ttps://wakatime.com/share/@alix_anneraud/5feb2198-4768-4d7e-99cc-bb77e83b124f.svg)
+[![Wakatime](https://wakatime.com/share/@alix_anneraud/0ce77bfc-7f66-467f-b75e-e1aa56742599.svg)](https://wakatime.com/share/@alix_anneraud/0ce77bfc-7f66-467f-b75e-e1aa56742599.svg)
 
 </center>
