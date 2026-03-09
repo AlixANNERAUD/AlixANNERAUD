@@ -36,6 +36,12 @@ jobs:
           path: profile/top-languages.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate Wakatime card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: wakatime
+          options: username=alix_anneraud&api_domain=wakapi.anneraud.fr
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
