@@ -18,6 +18,6 @@
 
 ![Top Langs](https://alixanneraud.github.io/AlixANNERAUD/top-languages.svg)
 
-[![Wakatime](https://wakatime.com/share/@alix_anneraud/0ce77bfc-7f66-467f-b75e-e1aa56742599.svg)](https://wakatime.com/share/@alix_anneraud/0ce77bfc-7f66-467f-b75e-e1aa56742599.svg)
+![WakaApi](https://alixanneraud.github.io/AlixANNERAUD/wakatime.svg)
 
 </center>
