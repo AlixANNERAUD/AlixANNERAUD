@@ -42,7 +42,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: wakatime
-          options: username=alix_anneraud&api_domain=wakapi.anneraud.fr&langs_count=10
+          options: username=alix_anneraud&api_domain=wakapi.anneraud.fr&langs_count=15
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
