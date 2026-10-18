@@ -10,8 +10,24 @@ A few things I've worked on:
 
 I've also worked on software at Amazon and on research at NYU.
 
-## Coding activity
+## Stats
 
-![WakaTime coding activity](https://alixanneraud.github.io/AlixANNERAUD/wakatime.svg)
+<div align="center">
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://alixanneraud.github.io/AlixANNERAUD/statistics.svg" alt="GitHub stats" width="400">
+    </td>
+    <td align="center" valign="top">
+      <img src="https://alixanneraud.github.io/AlixANNERAUD/top-languages.svg" alt="Most-used languages" width="400">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://alixanneraud.github.io/AlixANNERAUD/wakatime.svg" alt="WakaTime coding activity" width="490">
+    </td>
+  </tr>
+</table>
+</div>
 
 More about me and my other projects: [alix.anneraud.fr](https://alix.anneraud.fr/) · [Email](mailto:alix@anneraud.fr)
