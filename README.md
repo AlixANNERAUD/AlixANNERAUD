@@ -10,4 +10,8 @@ A few things I've worked on:
 
 I've also worked on software at Amazon and on research at NYU.
 
+## Coding activity
+
+![WakaTime coding activity](https://alixanneraud.github.io/AlixANNERAUD/wakatime.svg)
+
 More about me and my other projects: [alix.anneraud.fr](https://alix.anneraud.fr/) · [Email](mailto:alix@anneraud.fr)
