@@ -1,64 +1,44 @@
 <div align="center">
-
-# Hi, I'm Alix ANNERAUD 👋
-
-### From kernel to browser.
-
-**Software engineering · Rust & embedded systems · WebAssembly · self-hosting**
-
-I design, build, and operate software across the stack — from microcontrollers and operating-system components to web applications and infrastructure.
-
-[**Portfolio**](https://alix.anneraud.fr/) · [**Xila**](https://www.xila.dev/) · [**Projects**](https://alix.anneraud.fr/projects.html) · [**Résumé**](https://alix.anneraud.fr/resume/) · [**Email**](mailto:alix@anneraud.fr)
-
+  <h1>👋 Hi, I'm Alix ANNERAUD</h1>
+  <h3>From kernel to browser.</h3>
+  <p><strong>Software engineering · Rust & embedded systems · WebAssembly · self-hosting</strong></p>
+  <p>I design, build, and operate software across the stack — from microcontrollers and operating-system components to web applications and infrastructure.</p>
+  <p>
+    <a href="https://alix.anneraud.fr/">Portfolio</a> ·
+    <a href="https://www.xila.dev/">Xila</a> ·
+    <a href="https://alix.anneraud.fr/projects.html">Projects</a> ·
+    <a href="https://alix.anneraud.fr/resume.html">Résumé</a> ·
+    <a href="mailto:alix@anneraud.fr">Email</a>
+  </p>
 </div>
 
 ---
 
 ## 🔭 What I'm building
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### 🦀 [Xila](https://github.com/xila-project/core) — An operating system built in Rust
 
-### 🦀 [Xila](https://github.com/xila-project/core)
-
-**A modular embedded operating system built in Rust.**
-
-Hardware abstraction, task management, a virtual filesystem, LVGL graphics, and sandboxed WebAssembly applications — with native and browser targets for faster iteration.
+A modular operating system for embedded and resource-constrained devices. I work on hardware abstraction, tasks, a virtual filesystem, **LVGL graphics**, and **sandboxed WebAssembly applications** — with native and browser targets for faster iteration.
 
 **Rust · WebAssembly · Embedded · LVGL**
 
-[Source code](https://github.com/xila-project/core) · [Website & documentation](https://www.xila.dev/) · [Deep dive](https://alix.anneraud.fr/projects/xila)
+[Source code](https://github.com/xila-project/core) · [Website & documentation](https://www.xila.dev/) · [Technical deep dive](https://alix.anneraud.fr/projects/xila)
 
-</td>
-<td width="50%" valign="top">
+### 🏠 [Infrastructure](https://github.com/AlixANNERAUD/Infrastructure) — Self-hosting that lasts
 
-### 🏠 [Infrastructure](https://github.com/AlixANNERAUD/Infrastructure)
-
-**Self-hosting that's designed to be maintained.**
-
-Personal and family services deployed through Linux, Docker and Ansible, with reproducible configuration, monitoring and a focus on data sovereignty.
+I build and maintain a self-hosted stack for myself, family, and friends: Linux services, automated deployments, monitoring and reproducible configuration, with an emphasis on **data sovereignty**.
 
 **Linux · Docker · Ansible · Networking**
 
 [Source code](https://github.com/AlixANNERAUD/Infrastructure) · [Architecture & trade-offs](https://alix.anneraud.fr/projects/infrastructure)
 
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
+### 🚂 [Mini Train Store](https://github.com/AlixANNERAUD/MiniTrainStore) — Software for a real business
 
-### 🚂 [Mini Train Store](https://github.com/AlixANNERAUD/MiniTrainStore)
-
-**Real software for a real small business.** A self-hosted Odoo storefront and a custom Vue/WXT browser extension to streamline the flow of product listings and inventory data between Leboncoin and the shop.
+A self-hosted **Odoo** storefront and a custom **Vue/WXT browser extension** to streamline the flow of product listings and inventory data between Leboncoin and a family business.
 
 **Odoo · Vue 3 · TypeScript · WXT · PostgreSQL**
 
 [Online store](https://www.minitrainstore.fr/) · [Source code](https://github.com/AlixANNERAUD/MiniTrainStore) · [Technical overview](https://alix.anneraud.fr/projects/mini-train-store)
-
-</td>
-</tr>
-</table>
 
 ## 🧪 Robotics, research & machine learning
 
@@ -93,7 +73,6 @@ I particularly enjoy projects where **architecture, portability, performance, an
 <details>
 <summary>Show GitHub statistics and language breakdown</summary>
 
-<div align="center">
 
 ![GitHub contribution statistics](https://alixanneraud.github.io/AlixANNERAUD/statistics.svg)
 
@@ -101,16 +80,10 @@ I particularly enjoy projects where **architecture, portability, performance, an
 
 ![Coding activity from WakaAPI](https://alixanneraud.github.io/AlixANNERAUD/wakatime.svg)
 
-</div>
-
 </details>
 
 ---
 
-<div align="center">
-
 **Building something involving Rust, embedded software, infrastructure, or developer tooling?**
 
-[**Get in touch**](mailto:alix@anneraud.fr) · [**Explore my work**](https://alix.anneraud.fr/)
-
-</div>
+[Get in touch](mailto:alix@anneraud.fr) · [Explore my work](https://alix.anneraud.fr/)
