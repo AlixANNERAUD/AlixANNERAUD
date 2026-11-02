@@ -17,35 +17,52 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write
+      contents: read
+      # Lets the keepalive step below re-enable this workflow.
+      actions: write
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
 
+      # GitHub disables scheduled workflows after 60 days without repository
+      # activity, and this workflow never commits. Re-enabling it on every
+      # run resets that timer, without any commit.
+      - name: Keep the schedule alive
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/deploy.yml/enable"
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      # fail_on_error: a failed fetch (rate limit, Wakapi down) fails the run
+      # and keeps the cards already published, instead of deploying an
+      # error card.
       - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: readme-tools/github-readme-stats-action@v2
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true
           path: profile/statistics.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
 
       - name: Generate top languages card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: readme-tools/github-readme-stats-action@v2
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=10&size_weight=0.5&count_weight=0.5
           path: profile/top-languages.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
 
       - name: Generate Wakatime card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: readme-tools/github-readme-stats-action@v2
         with:
           card: wakatime
           options: username=alix_anneraud&api_domain=wakapi.anneraud.fr&langs_count=15
+          path: profile/wakatime.svg
+          fail_on_error: true
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: profile
 
@@ -59,4 +76,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
